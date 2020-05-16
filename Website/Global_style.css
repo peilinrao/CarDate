@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	background: #222222;
+}
+
+li {
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0 2vw 0 2vw;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height: 2;
+}
+

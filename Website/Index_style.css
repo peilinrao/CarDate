@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	color: #FFFFFF;
+	opacity: 0.9;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 400;
+	font-size: 4vw;
+	margin: 10px;
+}
+
+.main-container {
+	background-image: url("https://i.imgur.com/YUCCMQ0.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 56.25vw;
+	padding: 0;
+}
+
+.table-ViewGrid {
+	width: 100vw;
+	height: 56.25vw;
+}
+
+.main-View {
+	background: rgba(256,256,256,0.3);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #888;
+	padding: 0;
+}
