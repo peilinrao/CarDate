@@ -10,6 +10,20 @@ h1 {
 	margin: 10px;
 }
 
+h2 {
+	color: #B9E7FF;
+	opacity: 0.9;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 500;
+	font-size: 3vw;
+	margin: 0 0 0 20px;
+}
+
+p {
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
 .main-container {
 	background-image: url("https://i.imgur.com/YUCCMQ0.jpg");
 	background-size: cover;
@@ -30,4 +44,46 @@ h1 {
 	border-style: solid;
 	border-color: #888;
 	padding: 0;
+}
+
+.sign-in-list {
+	border-right-style: solid;
+	border-right-color: #DCDCDC;
+	border-width: 1px;
+	padding: 10px;
+	margin: 0;
+}
+
+.sign-in-button {
+	display: flex;
+	background-color: #3D8BFF;
+	width: 15vw;
+	height: 2.5vw;
+	vertical-align: middle;
+	align-items: center;
+	border-radius: 4px;
+	margin: 1vw 0 0 0;
+}
+
+.sign-in-text {
+	width: 15vw;
+	font-size: 1.2vw;
+	color: #FFFFFF;
+	font-weight: 450;
+}
+
+#sign-in-google {
+	background-color: #FFFFFF
+}
+
+#sign-in-bilibili {
+	background-color: #FF90BD
+}
+
+#sign-in-illinois {
+	background-color: #FF8E00
+}
+
+#sign-up {
+	background: rgba(0,0,0,0);
 }
