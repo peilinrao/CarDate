@@ -18,11 +18,12 @@
     <tr height="45.6%">
       <td></td>
       <td align="center" class="main-View">
-		  <ul width="100%">
-			  <li width="40%">
+		  <table width="100%">
+          <tr>
+            <td width="40%" class="sign-in-list" align="center">
 				<script type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
-				<div id="appleid-signin" data-color="black" data-border="true" data-type="sign in" style="width: 15vw; height: 3vw"></div>
-				<script type="text/javascript">
+              <div id="appleid-signin" data-color="black" data-border="true" data-type="sign in" style="width: 15vw; height: 2.75vw" align="center"></div>
+              <script type="text/javascript">
 				AppleID.auth.init({
 					clientId : '[CLIENT_ID]',
 					scope : '[SCOPES]',
@@ -31,11 +32,23 @@
 					usePopup : true //or false defaults to false
 				});
 				</script> 
-				<script src="https://apis.google.com/js/platform.js" async defer></script>
-				  <div class="g-signin2" data-onsuccess="onSignIn"></div>
-			  </li>
-          <li width="60%"> </li>
-        </ul></td>
+				<div class="sign-in-button" valign="middle"><p class="sign-in-text">Sign in With Phone</p></div>
+				
+				<div class="sign-in-button" id="sign-in-google" valign="middle"><p class="sign-in-text" style="color: #222222">Sign in With Google</p></div>
+				<div class="sign-in-button" id="sign-in-bilibili" valign="middle"><p class="sign-in-text">Sign in With Bilibili</p></div>
+				<div class="sign-in-button" id="sign-in-illinois" valign="middle"><p class="sign-in-text">Sign in With Illinois</p></div>
+				<div class="sign-in-button" id="sign-up" valign="middle"><p class="sign-in-text" style="text-decoration: underline">Sign up</p></div>
+			</td>
+            <td width="60%"><h2>欢迎回来</h2>
+            	<form>
+					<input type="text" placeholder="用户名" style=""></input>
+					<input type="text" placeholder="密码" style=""></input>
+			  		<input type="submit" value="登录" class="submit" align="right"></input>
+		  			<a href="index.html">忘记密码</a>
+				</form>
+			  </td>
+          </tr>
+        </table></td>
       <td></td>
     </tr>
     <tr height="26.1%"> </tr>
