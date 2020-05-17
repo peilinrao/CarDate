@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+form {
+	vertical-align: top
+}
+
+#welcome-back {
+	align-content: flex-start;
+}
+
+#welcome {
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: aliceblue;
+	margin-left: 1.3vw;
+}
+
+.two-column-field {
+	width: 20vw;
+	margin: 1.1vw 20px 0 0;
+}
+
+.sign-up-view {
+	padding-left: 1vw;
+}
+
+#uniqueID {
+	
+}
+
+#next-step {
+	background: rgba(32,128,256,0.9);
+	color: #FFFFFF;
+	border-color: #77B1FF;
+	border-width: 2px;
+	font-size: 1.5vw;
+	padding: 0;
+	margin-right: 3.3vw;
+	float: right;
+	height: 3.3vw;
+	margin-top: 1.2vw;
+	width: 21vw;
+	margin-left: 8px;
+}
+
+#verification {
+	margin-right: 0;
+}
